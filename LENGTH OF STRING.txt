@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[20]="program";
+   
+    
+    printf("length of string a=%d\n",strlen(a));
+    
+    return 0;
+}
+OUTPUT
+length of string a=7
+
+
+=== Code Execution Successful ===

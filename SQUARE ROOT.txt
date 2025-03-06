@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int n,square_root;
+    printf("enter the value=");
+    scanf("%d",&n);
+    square_root=sqrt(n);
+    printf("square_root=%d",square_root);
+    return 0;
+}
+OUTPUT
+enter the value=25
+square_root=5
+
+=== Code Execution Successful ===

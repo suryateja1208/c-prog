@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+ int age;
+ printf("enter the age=");
+ scanf("%d",&age);
+ if(age>=10 && age<=18)
+ {
+ printf(" the person is child\n");
+ }
+ else
+ {
+     printf("the person is not child");
+ }
+ return 0;
+    
+}
+OUTPUT
+enter the age=17
+ the person is child
+
+
+=== Code Execution Successful ===

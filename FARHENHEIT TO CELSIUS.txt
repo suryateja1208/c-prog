@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int farhen_heit,celsius;
+    printf("enter the value of farhen_heit=");
+    scanf("%d",&farhen_heit);
+    celsius=(farhen_heit-32)*5/9;
+    printf("celsius=%d",celsius);
+    return 0;
+}
+OUTPUT
+enter the value of farhen_heit=70
+celsius=21
+
+=== Code Execution Successful ===

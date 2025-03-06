@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int cel,far;
+printf("enter the value cel=");
+scanf("%d",&cel);
+far=(cel*1.8)+32;
+printf("far=%d",far);
+return 0;
+}
+OUTPUT:
+enter the value cel=70
+far=158

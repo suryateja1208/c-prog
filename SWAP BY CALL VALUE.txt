@@ -1,0 +1,29 @@
+#include<stdio.h>
+int swap( int x,int y);
+int main()
+{
+    int a=100;
+    int b=200;
+    printf("before swap,value of a=%d\n",a);
+    printf("before swap,value of b=%d\n",b);
+    swap(a,b);
+    printf("after swap,value of a=%d\n",a);
+    printf("after swap,value of b=%d\n",b);
+    return 0;
+}
+int swap(int x,int y)
+{
+    int c;
+    c=x;
+    x=y;
+    y=c;
+    return 0;
+}
+OUTPUT
+before swap,value of a=100
+before swap,value of b=200
+after swap,value of a=100
+after swap,value of b=200
+
+
+=== Code Execution Successful ===

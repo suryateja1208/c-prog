@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+float amount_USD,amount_INR,exchange_rate;
+exchange_rate=83;
+ printf("amount_USD=");
+ scanf("%f",&amount_USD);
+ amount_INR=amount_USD*exchange_rate;
+ printf("amount_INR=%f\n",amount_INR);
+ 
+ return 0;
+}
+OUTPUT
+amount_USD=100
+amount_INR=8300.000000

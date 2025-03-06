@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+int intial_balance,deposit,balance_a,withdraw,balance_b,final_balance;
+printf("intial_balance=");
+scanf("%d",&intial_balance);
+printf("deposit=");
+scanf("%d",&deposit);
+balance_a=intial_balance+deposit;
+printf("balance_a=%d\n",balance_a);
+printf("withdraw=");
+scanf("%d",&withdraw);
+balance_b=balance_a-withdraw;
+printf("balance_b=%d\n",balance_b);
+final_balance=balance_b;
+printf("final_balance=%d",balance_b);
+return 0;
+}
+
+OUTPUT
+intial_balance=5000
+deposit=2000
+balance_a=7000
+withdraw=1500
+balance_b=5500
+final_balance=5500
+
+=== Code Execution Successful ===
